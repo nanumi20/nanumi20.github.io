@@ -1118,6 +1118,21 @@ section {
   font-size: 18px;
   color: #949cac;
   line-height: 1.9em;
+  display: inline-block;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+  vertical-align: middle;
+}
+.contact .last p {
+  padding: 50px 0 10px 0;
+  margin-bottom: 2px;
+  font-size: 18px;
+  color: #949cac;
+  line-height: 1.9em;
+  display: inline-block;
+  align-items: center; /* Vertical center alignment */
+  justify-content: center; /* Horizontal center alignment */
+  vertical-align: middle;
 }
 
 .contact .info .social-links {
