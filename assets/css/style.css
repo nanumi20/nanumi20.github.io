@@ -1062,11 +1062,12 @@ section {
   color: #5f687b;
 }
 
-.contact .info p {
-  padding: 0 0 10px 60px;
+.contact p {
+  padding: 0 0 10px 20px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 18px;
   color: #949cac;
+  line-height: 1.9em;
 }
 
 .contact .info .social-links {
