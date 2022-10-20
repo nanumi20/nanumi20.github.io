@@ -633,6 +633,56 @@ section {
   margin-bottom: 0;
 }
 
+
+@media (max-width: 991px) {
+  #about {
+    height: 100vh;
+    text-align: center;
+  }
+
+  #about .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+
+  #about .hero-img {
+    text-align: center;
+  }
+
+  #about .hero-img img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+    height: auto;
+    text-align: center;
+  }
+
+  #about h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #about h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #about .hero-img img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 575px) {
+  #about .hero-img img {
+    width: 50%;
+    text-align: center;
+  }
+}
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
